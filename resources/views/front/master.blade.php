@@ -2,7 +2,7 @@
 <html lan="en" dir="ltr">
   <head>
     <!--CSS-->
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="{{asset('theme/style.css')}}" />
     <meta charset="utf-8" />
     <meta name="description" content="The Metreprenuer is a collection..." />
     <meta name="author" content="Amos Billy" />
@@ -12,7 +12,7 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="images/pink-icon.png"
+      href="images/pink-icon.png')}}"
     />
     <!-- Fontawesome CDN Link -->
 
@@ -48,7 +48,7 @@
         <div class="nav-container">
           <div class="nav-container-left">
             <div class="logo">
-              <a href="index.html"><img src="images/real-logo.png" class="logo-image" alt="" /></a>
+              <a href="index.html"><img src="{{asset('theme/images/real-logo.png')}}" class="logo-image" alt="Stagepass Audio Visual Limited" /></a>
             </div>
 
           </div>
@@ -100,7 +100,7 @@
                technology
               </p>
             </div>
-            <img src="images/IMG_5309.JPG" style="width: 100%; height: 100%" />
+            <img src="{{asset('theme/images/IMG_5309.JPG')}}" style="width: 100%; height: 100%" />
           </div>
 
           <div class="myslide fade">
@@ -111,7 +111,7 @@
                technology
               </p>
             </div>
-            <img src="images/IMG_5306.JPG" style="width: 100%; height: 100%" />
+            <img src="{{asset('theme/images/IMG_5306.JPG')}}" style="width: 100%; height: 100%" />
           </div>
 
           <div class="myslide fade">
@@ -122,7 +122,7 @@
                technology
               </p>
             </div>
-            <img src="images/IMG_5298.JPG" style="width: 100%; height: 100%" />
+            <img src="{{asset('theme/images/IMG_5298.JPG')}}" style="width: 100%; height: 100%" />
           </div>
 
           <div class="myslide fade">
@@ -133,7 +133,7 @@
                technology
               </p>
             </div>
-            <img src="images/IMG_5245.JPG" style="width: 100%; height: 100%" />
+            <img src="{{asset('theme/images/IMG_5245.JPG')}}" style="width: 100%; height: 100%" />
           </div>
 
           <div class="myslide fade">
@@ -144,7 +144,7 @@
                technology
               </p>
             </div>
-            <img src="images/image-034.png" style="width: 100%; height: 100%" />
+            <img src="{{asset('theme/images/image-034.png')}}" style="width: 100%; height: 100%" />
           </div>
           <!-- /fade css -->
 
@@ -221,11 +221,11 @@
             </div>
           </div>
           <div class="top-solution-one-right">
-            <img src="images/image-034.png" alt="" />
+            <img src="{{asset('theme/images/image-034.png')}}" alt="" />
           </div>
         </div>
         <div class="top-solution-two">
-          <img src="images/image-033.png" alt="" />
+          <img src="{{asset('theme/images/image-033.png')}}" alt="" />
           <div class="top-solution-two-cover">
             <div class="cover-header-one">
               <h1>
@@ -245,7 +245,7 @@
       <section class="about-capability" id="sec-3">
         <div class="about-capability-top">
           <div class="about-top-left">
-            <img src="images/image-032.png" alt="" />
+            <img src="{{asset('theme/images/image-032.png')}}" alt="" />
           </div>
           <div class="about-top-right">
             <h1>About <span>Us</span></h1>
@@ -277,7 +277,7 @@
                 <button class="learn-more">Learn More</button>
               </div>
               <div class="back-image">
-                <img src="images/image-031.png" alt="" />
+                <img src="{{asset('theme/images/image-031.png')}}" alt="" />
               </div>
             </div>
             <div class="slide slide2">
@@ -288,7 +288,7 @@
                 <button class="learn-more">Learn More</button>
               </div>
               <div class="back-image">
-                <img src="images/IMG_7156.JPG" alt="" />
+                <img src="{{asset('theme/images/IMG_7156.JPG')}}" alt="" />
               </div>
             </div>
             <div class="slide slide3">
@@ -299,7 +299,7 @@
                 <button class="learn-more">Learn More</button>
               </div>
               <div class="back-image">
-                <img src="images/IMG_6818.JPG" alt="" />
+                <img src="{{asset('theme/images/IMG_6818.JPG')}}" alt="" />
               </div>
             </div>
 
@@ -311,7 +311,7 @@
                 <button class="learn-more">Learn More</button>
               </div>
               <div class="back-image">
-                <img src="images/IMG_8302.JPG" alt="" />
+                <img src="{{asset('theme/images/IMG_8302.JPG')}}" alt="" />
               </div>
             </div>
             <div class="slide slide2">
@@ -322,7 +322,7 @@
                 <button class="learn-more">Learn More</button>
               </div>
               <div class="back-image">
-                <img src="images/IMG_6710.JPG" alt="" />
+                <img src="{{asset('theme/images/IMG_6710.JPG')}}" alt="" />
               </div>
             </div>
             <div class="slide slide3">
@@ -333,7 +333,7 @@
                 <button class="learn-more">Learn More</button>
               </div>
               <div class="back-image">
-                <img src="images/image-031.png" alt="" />
+                <img src="{{asset('theme/images/image-031.png')}}" alt="" />
               </div>
             </div>
 
@@ -345,7 +345,7 @@
                 <button class="learn-more">Learn More</button>
               </div>
               <div class="back-image">
-                <img src="images/image-031.png" alt="" />
+                <img src="{{asset('theme/images/image-031.png')}}" alt="" />
               </div>
             </div>
             <div class="slide slide2">
@@ -356,7 +356,7 @@
                 <button class="learn-more">Learn More</button>
               </div>
               <div class="back-image">
-                <img src="images/IMG_5245.JPG" alt="" />
+                <img src="{{asset('theme/images/IMG_5245.JPG')}}" alt="" />
               </div>
             </div>
             <div class="slide slide3">
@@ -367,7 +367,7 @@
                 <button class="learn-more">Learn More</button>
               </div>
               <div class="back-image">
-                <img src="images/IMG_7163.JPG" alt="" />
+                <img src="{{asset('theme/images/IMG_7163.JPG')}}" alt="" />
               </div>
             </div>
             <div id="arrow-left" class="arrow">
@@ -391,27 +391,27 @@
             <div class="container-kalasha" id="slidery">
               <div class="thumbnaily thumbnail-one">
                 <h2>Kalasha International Film Awards</h2>
-                <img src="images/image-029.png" alt="" />
+                <img src="{{asset('theme/images/image-029.png')}}" alt="" />
               </div>
               <div class="thumbnaily thumbnail-two">
                 <h2>Japan Africa</h2>
-                <img src="images/image-030.png" alt="" />
+                <img src="{{asset('theme/images/image-030.png')}}" alt="" />
               </div>
               <div class="thumbnaily thumbnail-three">
                 <h2>Kalasha International Film Awards</h2>
-                <img src="images/IMG_5247.JPG" alt="" />
+                <img src="{{asset('theme/images/IMG_5247.JPG')}}" alt="" />
               </div>
               <div class="thumbnaily thumbnail-four">
                 <h2>Safaricom</h2>
-                <img src="images/IMG_6818.JPG" alt="" />
+                <img src="{{asset('theme/images/IMG_6818.JPG')}}" alt="" />
               </div>
               <div class="thumbnaily thumbnail-five">
                 <h2>Event name</h2>
-                <img src="images/IMG_7156.JPG" alt="" />
+                <img src="{{asset('theme/images/IMG_7156.JPG')}}" alt="" />
               </div>
               <div class="thumbnaily thumbnail-six">
                 <h2>EABL</h2>
-                <img src="images/IMG_6309.JPG" alt="" />
+                <img src="{{asset('theme/images/IMG_6309.JPG')}}" alt="" />
               </div>
             </div>
 
@@ -457,52 +457,52 @@
         </div>
         <div class="ours-right">
           <div class="ours-right-one">
-            <img src="images/image-018.png" alt="" />
+            <img src="{{asset('theme/images/image-018.png')}}" alt="" />
           </div>
           <div class="ours-right-two">
-            <img src="images/image-015.png" alt="" />
+            <img src="{{asset('theme/images/image-015.png')}}" alt="" />
           </div>
           <div class="ours-right-three">
-            <img src="images/image-020.png" alt="" />
+            <img src="{{asset('theme/images/image-020.png')}}" alt="" />
           </div>
           <div class="ours-right-four">
-            <img src="images/image-016.png" alt="" />
+            <img src="{{asset('theme/images/image-016.png')}}" alt="" />
           </div>
           <div class="ours-right-five">
-            <img src="images/image-013.png" alt="" />
+            <img src="{{asset('theme/images/image-013.png')}}" alt="" />
           </div>
           <div class="ours-right-six">
-            <img src="images/image-010.png" alt="" />
+            <img src="{{asset('theme/images/image-010.png')}}" alt="" />
           </div>
           <div class="ours-right-seven">
-            <img src="images/image-008.png" alt="" />
+            <img src="{{asset('theme/images/image-008.png')}}" alt="" />
           </div>
           <div class="ours-right-eight">
-            <img src="images/image-006.png" alt="" />
+            <img src="{{asset('theme/images/image-006.png')}}" alt="" />
           </div>
           <div class="ours-right-nine">
-            <img src="images/image-005.png" alt="" />
+            <img src="{{asset('theme/images/image-005.png')}}" alt="" />
           </div>
           <div class="ours-right-ten">
-            <img src="images/image-004.png" alt="" />
+            <img src="{{asset('theme/images/image-004.png')}}" alt="" />
           </div>
           <div class="ours-right-eleven">
-            <img src="images/image-000.png" alt="" />
+            <img src="{{asset('theme/images/image-000.png')}}" alt="" />
           </div>
           <div class="ours-right-twelve">
-            <img src="images/image-002.png" alt="" />
+            <img src="{{asset('theme/images/image-002.png')}}" alt="" />
           </div>
           <div class="ours-right-thirteen">
-            <img src="images/image-026.png" alt="" />
+            <img src="{{asset('theme/images/image-026.png')}}" alt="" />
           </div>
           <div class="ours-right-fourteen">
-            <img src="images/image-024.png" alt="" />
+            <img src="{{asset('theme/images/image-024.png')}}" alt="" />
           </div>
           <div class="ours-right-fifteen">
-            <img src="images/image-022.png" alt="" />
+            <img src="{{asset('theme/images/image-022.png')}}" alt="" />
           </div>
           <div class="ours-right-sixteen">
-            <img src="images/image-028.png" alt="" />
+            <img src="{{asset('theme/images/image-028.png')}}" alt="" />
           </div>
         </div>
       </section>
@@ -562,8 +562,8 @@
       <!--main js-->
     </section>
     <!--End of site of container-->
-    <script src="index.js"></script>
-    <script src="kalasha.js"></script>
-    <script src="app.js"></script>
+    <script src="{{asset('theme/index.js')}}"></script>
+    <script src="{{asset('theme/kalasha.js')}}"></script>
+    <script src="{{asset('theme/app.js')}}"></script>
   </body>
 </html>
