@@ -1,17 +1,12 @@
 <div class="nav-drop-down" id="nav-menu">
     <div class="nav-drop-down-left">
       <ul>
+        <?php $Services = DB::table('services')->get(); ?>
+        @foreach ($Services as $Service)
         <li>
-          Full Production & Event Packages
+            <a style="color:#000000" href="{{url('/')}}/av-services/{{$Service->slung}}">{{$Service->title}}</a>
         </li>
-        <li>Visual</li>
-        <li>Staging Services</li>
-        <li>Lighting</li>
-        <li>Rigging & Truss Services</li>
-        <li>Graphics</li>
-        <li>Audio</li>
-        <li>Design Services</li>
-        <li>Equipment Rentals & Sales</li>
+        @endforeach
       </ul>
     </div>
     <div class="nav-drop-down-right">

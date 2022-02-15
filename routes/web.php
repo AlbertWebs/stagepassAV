@@ -21,5 +21,8 @@ Route::get('/our-work', [App\Http\Controllers\HomeController::class, 'our_work']
 Route::get('/our-work/{slung}', [App\Http\Controllers\HomeController::class, 'work'])->name('work');
 Route::get('/av-services', [App\Http\Controllers\HomeController::class, 'services'])->name('services');
 Route::get('/av-services/{slung}', [App\Http\Controllers\HomeController::class, 'service'])->name('service');
+Route::get('/av-services/{slung}/{extra}', [App\Http\Controllers\HomeController::class, 'service_extra'])->name('service');
+
+
 
 
