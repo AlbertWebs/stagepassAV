@@ -11,6 +11,7 @@
     {!! SEOMeta::generate() !!}
     {!! OpenGraph::generate() !!}
     {!! Twitter::generate() !!}
+    {!! JsonLd::generate() !!}
     <link
       rel="icon"
       type="image/png"
@@ -43,7 +44,7 @@
         <div class="nav-container">
           <div class="nav-container-left">
             <div class="logo">
-              <a href="index.html"><img src="images/real-logo.png" class="logo-image" alt="" /></a>
+              <a href="index.html"><img src="{{asset('theme/images/real-logo.png')}}" class="logo-image" alt="Stagepass Audio Visual Limited" /></a>
             </div>
 
           </div>

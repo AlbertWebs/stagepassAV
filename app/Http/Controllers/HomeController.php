@@ -53,6 +53,22 @@ class HomeController extends Controller
     }
 
     public function services(){
+        SEOMeta::setTitle('Av Services - Stagepass Audio Visual Limited');
+        SEOMeta::setDescription('Events company in Kenya, Event management company, Event planner, Audio visual consultant, Event technology service, Video conferencing service');
+        SEOMeta::setCanonical(url('/about-us'));
+
+        OpenGraph::setDescription('Events company in Kenya, Event management company, Event planner, Audio visual consultant, Event technology service, Video conferencing service');
+        OpenGraph::setTitle('Av Services - Stagepass Audio Visual Limited');
+        OpenGraph::setUrl(url('/about-us'));
+        OpenGraph::addProperty('type', 'articles');
+
+        TwitterCard::setTitle('Av Services - Stagepass Audio Visual Limited');
+        TwitterCard::setSite('@StagepassAV');
+
+        JsonLd::setTitle('Av Services - Stagepass Audio Visual Limited');
+        JsonLd::setDescription('Events company in Kenya, Event management company, Event planner, Audio visual consultant, Event technology service, Video conferencing service');
+        JsonLd::addImage('https://stagepass.co.ke/uploads/logo/StagePass-LOGO-y.png');
+
         return view('front.services.index');
     }
 

@@ -28,7 +28,8 @@
         @if($Service->content == '' OR $Service->content == null)
 
        @else
-       <h4>{!!html_entity_decode($Service->content)!!}
+       <h4 class="service-content">
+           {!!html_entity_decode($Service->content)!!}
        </h4>
        @endif
     </div>
