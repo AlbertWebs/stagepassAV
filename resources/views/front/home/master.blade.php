@@ -32,6 +32,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
     />
 
+
     <!--Title of the site-->
     <title>
       StagePass Audio Visual Limited - The Best Audio visual company in Kenya,
@@ -144,8 +145,9 @@
       <!--main js-->
     </section>
     <!--End of site of container-->
-    <script src="{{asset('theme/index.js')}}"></script>
-    <script src="{{asset('theme/kalasha.js')}}"></script>
-    <script src="{{asset('theme/app.js')}}"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="{{asset('theme/js/index.js')}}"></script>
+    <script src="{{asset('theme/js/kalasha.js')}}"></script>
+    <script src="{{asset('theme/js/app.js')}}"></script>
   </body>
 </html>

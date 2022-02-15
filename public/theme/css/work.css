@@ -326,7 +326,7 @@ header {
         margin-left: 0;
         margin-right: 0;
     }
-    
+
     .nav-container-right,
     .nav-ul,
     .nav-ul-one,
@@ -358,7 +358,7 @@ header {
     .nav-drop-down-left {
         flex: 1;
         width: 100%;
-        padding-right: 5px;  
+        padding-right: 5px;
     }
     .nav-drop-down-left > {
         display: flex;
@@ -418,6 +418,7 @@ header {
     min-height: 80vh;
     flex: 1;
     margin: 0px;
+    border: 10px solid #ffffff;
 }
 .work-container-image > div > img{
     width: 100%;
@@ -493,7 +494,7 @@ header {
         font-size: 50px;
         width: 100%;
     }
-    
+
     .hero-section > h4 {
         margin-top: 20px;
         font-size: 20px;
@@ -902,7 +903,7 @@ header {
     .quick-container-right >ul {
         margin-top: 10px;
         margin-left: 0px;
-        
+
     }
     .quick-container-right {
         display: flex;
@@ -918,7 +919,7 @@ header {
         width: 100%;
         height: 100%;
     }
-    
+
     .footer-links-left > ul {
         margin-top: 10px;
     }
@@ -971,7 +972,7 @@ header {
         font-size: 14px;
         font-weight: bold;
     }
-    
+
     .searchBox .email-envelope > i {
         color: #f5f5f5;
         font-size: 30px;
@@ -1043,7 +1044,7 @@ header {
         color: #b3aeae;
         margin-top: 20px;
     }
-    
+
     .searchBox {
         width: 100%;
         height: 45px;
@@ -1056,7 +1057,7 @@ header {
         display: flex;
         justify-content: space-between;
     }
-    
+
     .searchBox > input {
         padding-left: 45px;
         width: 80%;
@@ -1082,7 +1083,7 @@ header {
         margin-top: 8px;
         cursor: pointer;
     }
-     
+
 }
 /**/
 /*End of footer*/
