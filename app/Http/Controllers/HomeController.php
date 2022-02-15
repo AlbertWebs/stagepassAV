@@ -18,6 +18,10 @@ class HomeController extends Controller
         return view('front.services.index');
     }
 
+    public function service($slung){
+        return view('front.services.service');
+    }
+
     public function contact_us(){
         return view('front.contact.index');
     }
@@ -26,5 +30,7 @@ class HomeController extends Controller
         return view('front.work.index');
     }
 
-
+    public function work($slung){
+        return view('front.work.work');
+    }
 }
