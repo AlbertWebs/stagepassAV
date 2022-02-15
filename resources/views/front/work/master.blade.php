@@ -8,6 +8,9 @@
       <meta name="author" content="Amos Billy" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      {!! SEOMeta::generate() !!}
+      {!! OpenGraph::generate() !!}
+      {!! Twitter::generate() !!}
       <link
          rel="icon"
          type="image/png"
@@ -34,14 +37,6 @@
          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-      <!--Title of the site-->
-      <title>
-         StagePass Audio Visual Limited - The Best Audio visual company in Kenya,
-         Events company in Kenya, Event management company, Event planner, Audio
-         visual consultant, Event technology service, Video conferencing service -
-         It's Over 9000!
-      </title>
    </head>
    <body>
       <!--Start of site of container-->
