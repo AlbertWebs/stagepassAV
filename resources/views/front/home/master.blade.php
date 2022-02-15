@@ -2,7 +2,7 @@
 <html lan="en" dir="ltr">
   <head>
     <!--CSS-->
-    <link rel="stylesheet" type="text/css" href="{{asset('theme/style.css')}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset('theme/css/style.css')}}" />
     <meta charset="utf-8" />
     <meta name="description" content="The Metreprenuer is a collection..." />
     <meta name="author" content="Amos Billy" />
@@ -12,7 +12,7 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="images/pink-icon.png')}}"
+      href="{{asset('theme/images/pink-icon.png')}}"
     />
     <!-- Fontawesome CDN Link -->
 
@@ -48,7 +48,7 @@
         <div class="nav-container">
           <div class="nav-container-left">
             <div class="logo">
-              <a href="index.html"><img src="{{asset('theme/images/real-logo.png')}}" class="logo-image" alt="Stagepass Audio Visual Limited" /></a>
+              <a href="{{url('/')}}"><img src="{{asset('theme/images/real-logo.png')}}" class="logo-image" alt="Stagepass Audio Visual Limited" /></a>
             </div>
 
           </div>

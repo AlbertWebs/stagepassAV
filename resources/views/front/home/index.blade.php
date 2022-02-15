@@ -1,4 +1,4 @@
-@extends('front.master')
+@extends('front.home.master')
 
 @section('content')
  <!--Start of hero section-->
