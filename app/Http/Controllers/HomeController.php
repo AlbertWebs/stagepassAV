@@ -17,4 +17,14 @@ class HomeController extends Controller
     public function services(){
         return view('front.services.index');
     }
+
+    public function contact_us(){
+        return view('front.contact.index');
+    }
+
+    public function our_work(){
+        return view('front.work.index');
+    }
+
+
 }
