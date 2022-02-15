@@ -20,32 +20,7 @@
              </p>
           </div>
           <!--Drop down that will appear when one click the navbar menu-->
-          <div class="nav-drop-down" id="nav-menu">
-             <div class="nav-drop-down-left">
-                <ul>
-                   <li>
-                      Full Production & Event Packages
-                   </li>
-                   <li>Visual</li>
-                   <li>Staging Services</li>
-                   <li>Lighting</li>
-                   <li>Rigging & Truss Services</li>
-                   <li>Graphics</li>
-                   <li>Audio</li>
-                   <li>Design Services</li>
-                   <li>Equipment Rentals & Sales</li>
-                </ul>
-             </div>
-             <div class="nav-drop-down-right">
-                <ul>
-                   <li><a href="index.html">Home</a></li>
-                   <li><a href="about.html">About Us</a></li>
-                   <li><a href="work.html">Our Work</a></li>
-                   <li><a href="services.html">Av Services</a></li>
-                   <li><a href="contact.html">Contact us</a></li>
-                </ul>
-             </div>
-          </div>
+          @include('front.menus.main')
           <!--Drop down that will appear when one click the navbar menu-->
        </div>
        <div class="about-hero-bottom"></div>
