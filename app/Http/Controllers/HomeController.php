@@ -2,19 +2,53 @@
 
 namespace App\Http\Controllers;
 use DB;
-use OpenGraph;
-use SEOMeta;
 use Twitter;
-
+use Artesaos\SEOTools\Facades\SEOMeta;
+use Artesaos\SEOTools\Facades\OpenGraph;
+use Artesaos\SEOTools\Facades\TwitterCard;
+use Artesaos\SEOTools\Facades\JsonLd;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
     public function index(){
+
+        SEOMeta::setTitle('Best Audio visual company - Stagepass Audio Visual Limited');
+        SEOMeta::setDescription('Events company in Kenya, Event management company, Event planner, Audio visual consultant, Event technology service, Video conferencing service');
+        SEOMeta::setCanonical(url('/'));
+
+        OpenGraph::setDescription('Events company in Kenya, Event management company, Event planner, Audio visual consultant, Event technology service, Video conferencing service');
+        OpenGraph::setTitle('Best Audio visual company - Stagepass Audio Visual Limited');
+        OpenGraph::setUrl(url('/'));
+        OpenGraph::addProperty('type', 'articles');
+
+        TwitterCard::setTitle('Best Audio visual company - Stagepass Audio Visual Limited');
+        TwitterCard::setSite('@StagepassAV');
+
+        JsonLd::setTitle('Best Audio visual company - Stagepass Audio Visual Limited');
+        JsonLd::setDescription('Events company in Kenya, Event management company, Event planner, Audio visual consultant, Event technology service, Video conferencing service');
+        JsonLd::addImage('https://stagepass.co.ke/uploads/logo/StagePass-LOGO-y.png');
+
         return view('front.home.index');
     }
 
     public function about(){
+        SEOMeta::setTitle('About Us - Stagepass Audio Visual Limited');
+        SEOMeta::setDescription('Events company in Kenya, Event management company, Event planner, Audio visual consultant, Event technology service, Video conferencing service');
+        SEOMeta::setCanonical(url('/about-us'));
+
+        OpenGraph::setDescription('Events company in Kenya, Event management company, Event planner, Audio visual consultant, Event technology service, Video conferencing service');
+        OpenGraph::setTitle('About Us - Stagepass Audio Visual Limited');
+        OpenGraph::setUrl(url('/about-us'));
+        OpenGraph::addProperty('type', 'articles');
+
+        TwitterCard::setTitle('About Us - Stagepass Audio Visual Limited');
+        TwitterCard::setSite('@StagepassAV');
+
+        JsonLd::setTitle('About Us - Stagepass Audio Visual Limited');
+        JsonLd::setDescription('Events company in Kenya, Event management company, Event planner, Audio visual consultant, Event technology service, Video conferencing service');
+        JsonLd::addImage('https://stagepass.co.ke/uploads/logo/StagePass-LOGO-y.png');
+
         return view('front.about.index');
     }
 
