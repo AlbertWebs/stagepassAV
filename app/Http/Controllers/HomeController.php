@@ -111,11 +111,11 @@ class HomeController extends Controller
                     $page_sub_title = $Ser->title;
                     SEOMeta::setTitle('' . $page_title . ' - ' . $Settings->sitename . ' ');
                     SEOMeta::setDescription('' . $Settings->welcome . '');
-                    SEOMeta::setCanonical('' . $Settings->url . '/av-service/' . $page_title . '/'.$page_sub_title.'');
+                    SEOMeta::setCanonical('' . $Settings->url . '/service/' . $page_title . '/'.$page_sub_title.'');
 
                     OpenGraph::setDescription('' . $Settings->welcome . '');
                     OpenGraph::setTitle('' . $Settings->sitename . ' - ' . $Settings->welcome . '');
-                    OpenGraph::setUrl('' . $Settings->url . '/av-service/' . $page_title . '/'.$page_sub_title.'');
+                    OpenGraph::setUrl('' . $Settings->url . '/service/' . $page_title . '/'.$page_sub_title.'');
                     OpenGraph::addProperty('type', 'articles');
 
                     Twitter::setTitle('' . $Settings->sitename . ' - ' . $Settings->welcome . '');
@@ -124,7 +124,7 @@ class HomeController extends Controller
 
 
 
-                return view('front.extra', compact('Extra', 'page_title', 'page_name'));
+                return view('front.services.extra', compact('Extra', 'page_title', 'page_name','Services'));
             }
         }
 

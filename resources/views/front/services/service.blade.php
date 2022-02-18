@@ -56,7 +56,7 @@
                 @foreach($Extras as $value)
                     <div class="col-lg-6 col-md-6 col-sm-12 rigging-left">
                         <h2>{{$value->title}}</h2>
-                        <h4>
+                        <h4 class="quote-body text-center">
                             <?php
                             $original_string = $value->content;
                             $num_words = 60;
@@ -76,7 +76,7 @@
                         {!!html_entity_decode($shown_string)!!}
                         </h4>
                         @if(count($words) == 60)
-                        <button><a href="{{url('/av-services')}}/<?php echo "$Service->slung/$value->slung'"; ?>">READ MORE</a></button>
+                        <button><a href="{{url('/av-services')}}/<?php echo "$Service->slung/$value->slung"; ?>">READ MORE</a></button>
                         @endif
 
                     </div>
@@ -86,6 +86,7 @@
     </div>
 
 </section>
+<div style="clear: both"></div>
 <!--End of Rigging and Truss-->
 @endif
 
