@@ -14,7 +14,7 @@
         <li><a href="{{url('/')}}">Home</a></li>
         <li><a href="{{url('/')}}/about-us">About Us</a></li>
         <li><a href="{{url('/')}}/our-work">Our Work</a></li>
-        <li><a href="{{url('/')}}/av-services">Av Services</a></li>
+        <li><a href="{{url('/')}}/av-services/full-production-event-packages">Av Services</a></li>
         <li><a href="{{url('/')}}/contact-us">Contact us</a></li>
       </ul>
     </div>
