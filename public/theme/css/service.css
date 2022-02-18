@@ -550,6 +550,8 @@ header {
     margin-top: 10px;
     background: linear-gradient(to left, #000, #000);
     border: none;
+    border-radius: 10px;
+    z-index: 9;
 }
 .rigging-left > button:hover{
     background: linear-gradient(to right, #000, #000, #000, #000);
@@ -558,7 +560,7 @@ header {
 }
 .rigging-left > button > a{
     text-decoration: none;
-    color: #848484;
+    color: #ffffff;
 }
 .rigging-left > button > a:hover{
     color: #F6C501;
@@ -1321,6 +1323,48 @@ header {
         width:100px !important;
     }
 
+}
+
+.rd-parallax {
+    /* opacity: 0.8; */
+}
+
+.rd-parallax::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+}
+
+.bg-gray-base {
+    background: #000;
+    fill: #000;
+}
+
+.bg-fixed {
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,.8) !important;
+    min-height:500px;
+
+}
+.rigging-left{
+    margin-top:100px;
+}
+.rigging-left h2{
+    color: white;
+    z-index: 9;
+}
+.rigging-left h4{
+    color: white;
+    z-index: 9;
 }
 /**/
 /*End of footer*/

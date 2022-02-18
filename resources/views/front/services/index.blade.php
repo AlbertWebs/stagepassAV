@@ -38,33 +38,7 @@
 </section>
 <!--End of no event is complete-->
 
-<!--Start of Rigging and Truss-->
-<section class="rigging">
-    <div class="rigging-top">
-        <div class="rigging-left">
-            <h2>Full-Service Rigging & Trussing Packages</h2>
-            <h4>We’re your experts in the lighting sector, and our team of specialists can be with you all the way from
-                initial conceptualization right through to post-event tear-down. By trusting Stagepass Audio Visual
-                Limited to handle your rigging and truss needs as part of a full-service package with lighting, audio,
-                video and staging, you’re guaranteed a final product that aligns ....</h4>
 
-            <button><a href="#">READ MORE</a></button>
-        </div>
-        <div class="rigging-right">
-            <h2>Your Safety, Our Promise</h2>
-            <h4>Production elements can be heavy. Choosing professionals to transport, install and operate trusses
-                ensures safety precautions are followed. Stagepass Audio Visual Limited takes this responsibility
-                seriously, and when necessary will work with engineers to guarantee the safety of our builds.
-                Our vast experience with structures and rigging allows us to know when engineering or permitting is
-                needed.
-                Whether you’re arranging a party ....</h4>
-
-            <button><a href="#">READ MORE</a></button>
-        </div>
-    </div>
-    <div class="rigging-bottom"></div>
-</section>
-<!--End of Rigging and Truss-->
 
 
 <!--Happy clients-->
